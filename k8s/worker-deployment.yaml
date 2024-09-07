@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: worker-deployement
+  name: worker-deployment
 spec:
   replicas: 1
   selector:
