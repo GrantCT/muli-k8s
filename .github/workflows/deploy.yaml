@@ -36,7 +36,7 @@ jobs:
       - name: Get Credentials
         uses: google-github-actions/get-gke-credentials@v2
         with:
-          cluster_name: muli-cluster
+          cluster_name: new-multi-cluster
           location: us-west1-a
 
       - name: Build
